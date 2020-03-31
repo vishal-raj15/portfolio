@@ -29,13 +29,13 @@ class Contact extends Component {
                     <ListItem>
                         <ListItemContent style={{fontSize:'30px', fontFamily:'Anton'}}>
                             <i className="fa fa-envelope" aria-hidden="true" />
-                            vishalraj1380@gmail.com</ListItemContent>
+                            b18151@students.iitmandi.ac.in</ListItemContent>
                     </ListItem>
 
                     <ListItem>
                         <ListItemContent style={{fontSize:'30px', fontFamily:'Anton'}}>
                             <i className="fa fa-envelope" aria-hidden="true" />
-                            vishalraj1380@gmail.com</ListItemContent>
+                            vishalraj3344@gmail.com</ListItemContent>
                     </ListItem>
                     
                 </List>
