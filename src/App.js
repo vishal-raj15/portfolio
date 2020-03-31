@@ -4,7 +4,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-
+import 'mapbox-gl/dist/mapbox-gl.css';
 class App extends Component {
   render(){
   return (

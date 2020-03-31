@@ -143,3 +143,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   font-size: 40px;
   padding-right: 5rem;
 }
+
+.resume-right-col {
+  margin: auto;
+  background:#27221f;
+  color: white;
+}
