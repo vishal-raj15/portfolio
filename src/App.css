@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,111 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.header-color {
+
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid {
+
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  height: 700px;
+}
+.avatar-img {
+  height: 250px;
+
+  
+  border-radius:125px ;
+
+  margin-top:20px;
+ /* padding-top: 5em; */
+  
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin:auto;
+  border-radius:10px ;
+  /* float: right; */
+  
+  
+}
+.project-grid {
+  display: flex;
+}
+
+
+.banner-text h1 {
+  text-align: center;
+  font-size: 66px;
+  font-weight: bold;
+  color:white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-link i{
+  color: white;
+  font-size: 5em;
+  padding:8px ;
+}
+.contact-body {
+  margin : auto;
+  background:grey;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  position: fixed;
+}
+.contact-grid {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border:2px solid black;
+  color: black;
+  background-color:white;
+  margin-bottom: 20px;
+  
+  justify-content: center;
+  width: 80%;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+
+.contact-inf i{
+  font-size: 40px;
+  padding-right: 5rem;
 }
