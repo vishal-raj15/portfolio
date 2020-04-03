@@ -1,10 +1,11 @@
 import React, { Component} from 'react';
 import { Grid ,Cell} from 'react-mdl';
 import Education from './education';
+
 class About extends Component {
     render() {
         return (
-            <div>
+            <div id="about">
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign:'center'}}>

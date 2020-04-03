@@ -14,9 +14,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   background: -webkit-linear-gradient(to right, #4286f4, #373B44); 
   background: linear-gradient(to right, #4286f4, #373B44);  
   
-  
+  width: 100vw;
   text-align: center;
-  height: 1000px;
+  height: 110vh;
 }
 .avatar-img {
   height: 250px;

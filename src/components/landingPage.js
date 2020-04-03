@@ -1,14 +1,15 @@
 import React, { Component} from 'react';
 import { Grid , Cell } from 'react-mdl';
-import About from './about';
-import Particles from 'react-particles-js';
 
+import Particles from 'react-particles-js';
+import Project from './project';
+import About from './about';
 
 
 class LandingPage extends Component {
     render() {
         return (
-            <div style={{width: '100%' , magin: 'auto'}} >
+            <div style={{width: '100%' , magin: 'auto'}} id="home" >
 
 
                 <Grid className="landing-grid">
@@ -57,8 +58,13 @@ class LandingPage extends Component {
                         
                     </Cell>
                 </Grid>
-
+                <About/>
+                <Project />
+                
             </div>
+            
+            
+           
         )
     }
 }

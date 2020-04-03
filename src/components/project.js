@@ -194,7 +194,7 @@ class Project extends Component {
 
     render() {
         return (
-            <div className="categorical-tabs">
+            <div className="categorical-tabs" id='project'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>React</Tab>
                     <Tab>cpp</Tab>
