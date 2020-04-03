@@ -14,11 +14,11 @@ const Main = () => (
     // </div>
     // );
     <Switch>
-    <Route exact path="/" component={LandingPage} />
-    <Route path="/about" component={About} />
-    <Route path="/contact" component={Contact} />
-    <Route path="/resume" component={Resume} />
-    <Route path="/project" component={Project} />
+    <Route exact path="/portfolio/home" component={LandingPage} />
+    <Route path="/portfolio/about" component={About} />
+    <Route path="/portfolio/contact" component={Contact} />
+    <Route path="/portfolio/resume" component={Resume} />
+    <Route path="/portfolio/project" component={Project} />
 
     </Switch>
 )
