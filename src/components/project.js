@@ -20,7 +20,7 @@ class Project extends Component {
                     <CardText> this is my portfolio react project</CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/vishal-raj15/portfolio">Github</a></Button>
-                        <Button colored>demo</Button>
+                        <Button colored><a href ="https://vishal-raj15.github.io/portfolio/">demo</a></Button>
 
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
@@ -150,7 +150,7 @@ class Project extends Component {
                 <CardText> Galaxy</CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/vishal-raj15/javascript">github</a></Button>
-                    <Button colored><a href="https://vishal-raj15.github.io/javascript/">github</a></Button>
+                    <Button colored><a href="https://vishal-raj15.github.io/javascript/">demo</a></Button>
 
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
