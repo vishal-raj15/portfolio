@@ -1,22 +1,34 @@
 import React, { Component} from 'react';
 import { Grid , Cell } from 'react-mdl';
+import About from './about';
+import Particles from 'react-particles-js';
+
+
+
 class LandingPage extends Component {
     render() {
         return (
             <div style={{width: '100%' , magin: 'auto'}} >
+
+
                 <Grid className="landing-grid">
+                
                     <Cell col={12}>
+
+                    
                         <div>
+                        
                         <img 
                         src="https://aceingautism.org/wp-content/uploads/2019/04/Male-profile-silhouette.jpg"
                         alt="avatar"
                         
                         className="avatar-img"
-                        />
+                        /> 
+                        <p><h4>hey there ! i'm </h4></p>
                         <h1> Vishal Raj </h1>
                         </div>
                         
-
+                        
                         <div className="banner-text">
                             <h1>open source enthusiast</h1>
                         <hr/>  
@@ -41,6 +53,8 @@ class LandingPage extends Component {
 
                         </div>
                         </div>
+
+                        
                     </Cell>
                 </Grid>
 
