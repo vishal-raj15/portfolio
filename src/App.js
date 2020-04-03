@@ -14,10 +14,10 @@ class App extends Component {
     <Layout fixedHeader>
           <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> <i className="fa fa-user" aria-hidden="true" />   My </span><strong>Profile</strong></span>}>
               <Navigation>
-                  <Link to="/">Home</Link>
-                  <Link to="/about">About</Link>
-                  <Link to="/project">Project</Link>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/portfolio/">Home</Link>
+                  <Link to="/portfolio/about">About</Link>
+                  <Link to="/portfolio/project">Project</Link>
+                  <Link to="/portfolio/contact">Contact</Link>
               </Navigation>
           </Header>
           {/* <Drawer title="Title">
