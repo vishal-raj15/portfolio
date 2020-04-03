@@ -6,17 +6,19 @@ import ReactMapGL from 'react-map-gl';
     
   state = {
     viewport: {
-      width: 600,
+      width:300,
       height: 300,
       latitude: 31.7754,
       longitude:  76.9861,
-      zoom: 15
+      zoom: 15,
+      
     }
   };
  
   render() {
    
     return (
+      <div className="map-img">
       <ReactMapGL
         {...this.state.viewport}
         onViewportChange={(viewport) => this.setState({viewport})}
@@ -25,6 +27,8 @@ import ReactMapGL from 'react-map-gl';
 
         
       />
+      </div>
+     
     );
   }
 }

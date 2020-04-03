@@ -34,19 +34,8 @@ class About extends Component {
                             <h2> Education </h2>
                         < Education 
                         startyear = {2018}
-                        endyear = {2021}/>
-                            {/* <Grid>
-                           <Cell col={3}><h2>Education </h2> <img 
-                            src="https://qph.fs.quoracdn.net/main-qimg-9c53c11577b1f01abad93f17ce93b3b9"
-                            slt="avatar"
-                            style={{height:'200px' , paddingTop:'2em'}}
-                            /><p style={{paddingTop: '3em'}}> IIT Mandi </p> </Cell>
+                        endyear = {2022}/>
                             
-                            
-                                
-                            <Cell col={4} >i am vishal raj a second year undergraduate student of IIT mandi .
-                            </Cell>
-                            </Grid> */}
 
                         </div>
                     

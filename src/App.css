@@ -113,4 +113,11 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   margin: auto;
   background:#27221f;
   color: white;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.map-img {
+  max-width: 100%;
+  justify-content: center;
 }
