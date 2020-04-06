@@ -59,7 +59,7 @@ class LandingPage extends Component {
                     </Cell>
                 </Grid>
                 <About/>
-                <Project />
+                
                 
             </div>
             

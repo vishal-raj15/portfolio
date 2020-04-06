@@ -13,14 +13,16 @@ import ReactMapGL from 'react-map-gl';
       zoom: 15,
       
     }
+
   };
  
   render() {
    
     return (
-      <div className="map-img">
+      <div className="map-img" >
       <ReactMapGL
         {...this.state.viewport}
+        
         onViewportChange={(viewport) => this.setState({viewport})}
         mapboxApiAccessToken = {'pk.eyJ1IjoidmlpaWlpc2giLCJhIjoiY2s4YXE4NmYyMDRxaTNkbzNhbHV4ajk3aiJ9.TvnXm-qD00gP62DCRwg4EA'}
         mapStyle={'mapbox://styles/mapbox/basic-v9'}
@@ -28,7 +30,6 @@ import ReactMapGL from 'react-map-gl';
         
       />
       </div>
-     
     );
   }
 }

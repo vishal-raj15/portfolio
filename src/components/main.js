@@ -21,6 +21,7 @@ const Main = () => (
     <Route path="/project" component={Project} />
 
     </Switch>
+    
 )
 
 export default Main;

@@ -8,6 +8,12 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 
 }
 
+.header-color :hover {
+  background-color: black;
+  color: red;
+}
+
+
 .landing-grid {
 
   background: #373B44;  
