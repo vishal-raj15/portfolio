@@ -17,7 +17,7 @@ class App extends Component {
 
     // <div style={{height: '700px', position: 'relative'}}>
     //   
-    <Layout fixedHeader>
+    <Layout>
           <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> <i className="fa fa-user" aria-hidden="true" />   My </span><strong>Profile</strong></span>}>
               <Navigation>
                   <Link to="/">Home</Link>
@@ -25,11 +25,11 @@ class App extends Component {
                   <Link to="/project">Project</Link>
               </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer className="drawer-color" title="Menu Bar">
               <Navigation>
-                  <Link to="/">Home</Link>
-                  <Link to="/about">About</Link>
-                  <Link to="/project">Project</Link>
+                  <Link to="/"><i className='fa fa-home' aria-hidden="true" /> Home</Link>
+                  <Link to="/about"><i className='fa fa-address-book' aria-hidden="true" /> About</Link>
+                  <Link to="/project"><i className='fa fa-file' aria-hidden="true" /> Project</Link>
               </Navigation>
           </Drawer>
           <Content>

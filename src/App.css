@@ -12,6 +12,11 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   background-color: black;
   color: red;
 }
+.drawer-color i {
+  font-size: 2vw;
+  padding-right:6px;
+  size: 4vw;
+}
 
 
 .landing-grid {
@@ -47,6 +52,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 .project-grid {
   display: flex;
   font-size: 8vw;
+  flex-wrap: wrap;
+  padding-top: 8px;
+  margin: auto;
 }
 
 
@@ -126,4 +134,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 .map-img {
   max-width: 100%;
   justify-content: center;
+}
+
+.categorical-tabs {
+  font-size: 4vw;
+  margin: 2vw;
 }
