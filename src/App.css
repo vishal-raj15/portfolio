@@ -40,9 +40,12 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   
 }
 .banner-text {
-  background-color: black;
-  opacity: 0.8;
-  width: 75%;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  width: 100%;
   margin:auto;
   border-radius:10px ;
   /* float: right; */
@@ -80,7 +83,7 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 .social-link {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 40%;
   margin: auto;
 }
 .social-link i{
