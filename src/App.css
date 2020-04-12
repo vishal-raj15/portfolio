@@ -133,9 +133,13 @@
 }
 
 .categorical-tabs {
+  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  
   font-size: 2vw;
   padding-top: 10vw;
   margin: 10hw;
+  color: white;
+  height: 80vh;
   
 }
 .intro {
@@ -148,6 +152,7 @@
 .about {
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
+  height: 110vh;
 }
 
 .resume-right-col {
@@ -159,4 +164,8 @@
     font-size: 2px;
     height: 25px;
     width: 25px;
+}
+
+.naem {
+  color: white;
 }

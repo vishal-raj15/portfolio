@@ -196,12 +196,12 @@ class Project extends Component {
         return (
             <div className="categorical-tabs" id='project'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab>React</Tab>
-                    <Tab>cpp</Tab>
-                    <Tab>godot</Tab>
-                    <Tab>ml/dl</Tab>
-                    <Tab>JS</Tab>
-                    <Tab>Django</Tab>
+                    <Tab style={{color:"white"}}>React</Tab>
+                    <Tab style={{color:"white"}}>cpp</Tab>
+                    <Tab style={{color:"white"}}>godot</Tab>
+                    <Tab style={{color:"white"}}>ml/dl</Tab>
+                    <Tab style={{color:"white"}}>JS</Tab>
+                    <Tab style={{color:"white"}}>Django</Tab>
                 </Tabs>
 
                     <Grid>
