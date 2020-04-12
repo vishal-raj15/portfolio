@@ -1,10 +1,11 @@
 import React, {Component , setState} from 'react';
-import ReactMapGL from 'react-map-gl';
+import ReactMapGL ,{Marker} from 'react-map-gl';
  import 'mapbox-gl/dist/mapbox-gl.css';
  var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
  class Cmap extends Component {
-    
-  state = {
+  constructor(props) {
+    super(props);
+    this.state = {
     viewport: {
       width:600,
       height: 300,
@@ -13,6 +14,7 @@ import ReactMapGL from 'react-map-gl';
       zoom: 15,
       
     }
+  }
 
   };
  
@@ -26,9 +28,13 @@ import ReactMapGL from 'react-map-gl';
         onViewportChange={(viewport) => this.setState({viewport})}
         mapboxApiAccessToken = {'pk.eyJ1IjoidmlpaWlpc2giLCJhIjoiY2s4YXE4NmYyMDRxaTNkbzNhbHV4ajk3aiJ9.TvnXm-qD00gP62DCRwg4EA'}
         mapStyle={'mapbox://styles/mapbox/dark-v10'}
-
-        
-      />
+        >
+        <Marker 
+              latitude={this.state.viewport.latitude}
+              longitude={this.state.viewport.longitude}>
+              <img className="map-icon" src="https://img.icons8.com/color/72/marker.png"></img> 
+              <div>iit mandi</div></Marker>
+        </ReactMapGL>
       </div>
     );
   }
