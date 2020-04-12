@@ -3,8 +3,7 @@ import React, { Component} from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
-import { Link } from 'react-router-dom';
-
+import { Link,Switch , Route } from 'react-router-dom';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import LandingPage from './components/landingPage';
 import About from './components/about';
@@ -16,7 +15,9 @@ class App extends Component {
   return (
 
     // <div style={{height: '700px', position: 'relative'}}>
-    //   
+    //
+    <div>   
+         
     <Layout>
           <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> <i className="fa fa-user" aria-hidden="true" />   My </span><strong>Profile</strong></span>}>
               <Navigation>
@@ -34,12 +35,18 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            <Main />
-            
+            <Switch>
+    <Route exact path="/" component={LandingPage} />
+    <Route path="/about" component={About} />
+    
+    <Route path="/project" component={Project} />
+
+    </Switch>
 
           </Content>
       </Layout>
-    //</div>
+      
+    </div>
 
   );
 }

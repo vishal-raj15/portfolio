@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import { Grid , Cell } from 'react-mdl';
-
+import Typical from 'react-typical';
 import Particles from 'react-particles-js';
 import Project from './project';
 import About from './about';
@@ -25,8 +25,13 @@ class LandingPage extends Component {
                         
                         className="avatar-img"
                         /> 
-                        <p><h4>hey there ! i'm </h4></p>
-                        <h1> Vishal Raj </h1>
+                        
+                        <Typical className="intro"
+                            steps={["hey there ! i'm", 1000 , 'Vishal Raj' ,1500 ]}
+                            loop={Infinity}
+                            wrapper="p"
+                        />
+                        
                         </div>
                         
                         
@@ -58,7 +63,7 @@ class LandingPage extends Component {
                         
                     </Cell>
                 </Grid>
-                <About/>
+                
                 
                 
             </div>

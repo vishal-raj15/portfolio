@@ -6,7 +6,7 @@ import ReactMapGL from 'react-map-gl';
     
   state = {
     viewport: {
-      width:300,
+      width:600,
       height: 300,
       latitude: 31.7754,
       longitude:  76.9861,
@@ -25,7 +25,7 @@ import ReactMapGL from 'react-map-gl';
         
         onViewportChange={(viewport) => this.setState({viewport})}
         mapboxApiAccessToken = {'pk.eyJ1IjoidmlpaWlpc2giLCJhIjoiY2s4YXE4NmYyMDRxaTNkbzNhbHV4ajk3aiJ9.TvnXm-qD00gP62DCRwg4EA'}
-        mapStyle={'mapbox://styles/mapbox/basic-v9'}
+        mapStyle={'mapbox://styles/mapbox/dark-v10'}
 
         
       />

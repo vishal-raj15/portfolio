@@ -2,10 +2,7 @@
 
 .header-color {
 
-  background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
 }
 
 .header-color :hover {
@@ -16,15 +13,13 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   font-size: 2vw;
   padding-right:6px;
   size: 4vw;
+  color: white;
 }
 
 
 .landing-grid {
 
-  background: #373B44;  
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44); 
-  background: linear-gradient(to right, #4286f4, #373B44);  
-  
+  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   width: 100vw;
   text-align: center;
   height: 110vh;
@@ -40,10 +35,7 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   
 }
 .banner-text {
-  background: #373B44;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   
   width: 100%;
   margin:auto;
@@ -135,11 +127,31 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 }
 
 .map-img {
-  max-width: 100%;
+  
+  width: 100vw;
   justify-content: center;
 }
 
 .categorical-tabs {
-  font-size: 4vw;
-  margin: 2vw;
+  font-size: 2vw;
+  padding-top: 10vw;
+  margin: 10hw;
+  
+}
+.intro {
+  text-align: center;
+  margin: auto;
+  padding: 4vw;
+  font-size: 5vw;
+  color: white;
+}
+.about {
+  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  color: white;
+}
+
+.resume-right-col {
+
+  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  color: white;
 }
