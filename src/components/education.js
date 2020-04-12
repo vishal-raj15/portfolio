@@ -32,7 +32,7 @@ class Education extends Component {
         <p> <h4>{this.props.startyear} - {this.props.endyear}</h4></p>
 
                     <h4> My college </h4>
-                    <p>  Indian Institute of Technology Mandi (IIT Mandi) is an autonomous engineering and technology university located in Mandi, Himachal Pradesh. IIT Mandi's permanent campus (about 14 km from Mandi) is fully functional at Kamand and Salgi Mandi.</p>
+                    <p><h6>Indian Institute of Technology Mandi (IIT Mandi) is an autonomous engineering and technology university located in Mandi, Himachal Pradesh. IIT Mandi's permanent campus (about 14 km from Mandi) is fully functional at Kamand and Salgi Mandi.</h6></p>
                     <Cmap />
                     </Cell>
                 </Grid>

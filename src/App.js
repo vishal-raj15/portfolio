@@ -11,7 +11,16 @@ import Project from './components/project';
 
 
 class App extends Component {
+  state = { time :""};
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({time : new Date().toLocaleTimeString() })
+    },1000)
+  }
+
   render(){
+
   return (
 
     // <div style={{height: '700px', position: 'relative'}}>
@@ -21,6 +30,7 @@ class App extends Component {
     <Layout>
           <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> <i className="fa fa-user" aria-hidden="true" />   My </span><strong>Profile</strong></span>}>
               <Navigation>
+                  <div className="time"> {this.state.time} </div>
                   <Link to="/">Home</Link>
                   <Link to="/about">About</Link>
                   <Link to="/project">Project</Link>
