@@ -7,7 +7,7 @@ import ReactMapGL ,{Marker} from 'react-map-gl';
     super(props);
     this.state = {
     viewport: {
-      width:600,
+      width:400,
       height: 300,
       latitude: 31.7754,
       longitude:  76.9861,
@@ -30,6 +30,7 @@ import ReactMapGL ,{Marker} from 'react-map-gl';
         mapStyle={'mapbox://styles/mapbox/dark-v10'}
         >
         <Marker 
+              anchor = "bottom"
               latitude={this.state.viewport.latitude}
               longitude={this.state.viewport.longitude}>
               <img className="map-icon" src="https://img.icons8.com/color/72/marker.png"></img> 

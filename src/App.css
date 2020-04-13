@@ -129,7 +129,8 @@
 .map-img {
   
   width: 100vw;
-  justify-content: center;
+  text-align: center;
+  display: block;
 }
 
 .categorical-tabs {
@@ -153,17 +154,21 @@
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
   height: 110vh;
+  
 }
 
 .resume-right-col {
 
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
+  width:100vw;
 }
 .map-icon {
     font-size: 2px;
     height: 25px;
     width: 25px;
+    cursor: pointer;
+    
 }
 
 .naem {
