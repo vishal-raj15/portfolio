@@ -9,7 +9,7 @@ import About from './about';
 class LandingPage extends Component {
     render() {
         return (
-            <div style={{width: '100%' , magin: 'auto'}} id="home" >
+            <div style={{width: '100%' ,height: '100%', magin: 'auto'}} id="home" >
 
 
                 <Grid className="landing-grid">

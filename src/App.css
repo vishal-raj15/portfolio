@@ -13,7 +13,7 @@
   font-size: 2vw;
   padding-right:6px;
   size: 4vw;
-  color: white;
+  color: darkslategray;
 }
 
 
@@ -22,7 +22,7 @@
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   width: 100vw;
   text-align: center;
-  height: 110vh;
+  height: 118vh;
 }
 .avatar-img {
   height: 250px;
@@ -154,6 +154,7 @@
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
   height: 110vh;
+
   
 }
 

@@ -18,13 +18,13 @@ class Education extends Component {
                     <img 
                         src="https://qph.fs.quoracdn.net/main-qimg-9c53c11577b1f01abad93f17ce93b3b9"
                         slt="avatar"
-                        style={{height:'200px' , paddingTop:'2em'}}
+                        style={{height:'230px' , paddingTop:'2em'}}
                         />
 
                     <img 
                         src="https://qph.fs.quoracdn.net/main-qimg-f274ca32b54dd43cfbf051f5e8a26054"
                         slt="avatar"
-                        style={{height:'200px' , paddingTop:'2em'}}
+                        style={{height:'230px' , paddingTop:'2em'}}
                         />
 
                     </Cell>
