@@ -7,7 +7,7 @@ class About extends Component {
         return (
             <div className="about">
                 <Grid>
-                    <Cell col={4}>
+                    <Cell className="half1" col={4}>
                         <div style={{textAlign:'center'}}>
                             <img 
                             src="https://aceingautism.org/wp-content/uploads/2019/04/Male-profile-silhouette.jpg"

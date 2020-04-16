@@ -22,7 +22,9 @@
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   width: 100vw;
   text-align: center;
-  height: 118vh;
+  clip-path: polygon(0% 50px, 100% 0%, 100% calc(100% - 30px), 0% 100%);
+
+  
 }
 .avatar-img {
   height: 250px;
@@ -32,15 +34,16 @@
 
   margin-top:20px;
  /* padding-top: 5em; */
+
   
 }
 .banner-text {
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
-  
+  background: transparent;
   width: 100%;
   margin:auto;
   border-radius:10px ;
   /* float: right; */
+
   
   
 }
@@ -50,6 +53,7 @@
   flex-wrap: wrap;
   padding-top: 8px;
   margin: auto;
+
 }
 
 
@@ -142,18 +146,26 @@
   color: white;
   height: 80vh;
   
+  clip-path: polygon(0% 50px, 100% 0%, 100% calc(100% - 50px), 0% 100%);
 }
 .intro {
   text-align: center;
   margin: auto;
   padding-top: 0.5vw;
-  font-size: 5vw;
+  font-size: 5vw; 
   color: white;
+  
+ 
+/* 
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
 }
 .about {
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
   height: 110vh;
+  padding-top: 5px;
+ 
+ 
 
   
 }
@@ -162,6 +174,7 @@
 
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
+  
 }
 .map-icon {
     font-size: 2px;
@@ -177,3 +190,4 @@
 .time {
   float: center;
 }
+
