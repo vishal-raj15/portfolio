@@ -3,7 +3,7 @@ import React, { Component} from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
-import { Link,Switch , Route, Router } from 'react-router-dom';
+import { Link,Switch , Route, Router , HashRouter } from 'react-router-dom';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import LandingPage from './components/landingPage';
 import About from './components/about';
@@ -25,7 +25,7 @@ class App extends Component {
 
     // <div style={{height: '700px', position: 'relative'}}>
     //
-    <div>   
+     
          
     <Layout>
           <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> <i className="fa fa-user" aria-hidden="true" />   My </span><strong>Profile</strong></span>}>
@@ -45,7 +45,7 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-           
+          
             <Switch>
     <Route exact path="/portfolio" component={LandingPage} />
     <Route path="/about" component={About} />
@@ -57,7 +57,7 @@ class App extends Component {
           </Content>
       </Layout>
       
-    </div>
+    
 
   );
 }

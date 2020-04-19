@@ -4,12 +4,15 @@ import Typical from 'react-typical';
 import Particles from 'react-particles-js';
 import Project from './project';
 import About from './about';
+import CommentBox from './commentBox';
+import { Container , Segment,Input } from 'semantic-ui-react';
 
 
 class LandingPage extends Component {
     render() {
         return (
-            <div style={{width: '100%',height: '105%', magin: 'auto'}} id="home" >
+            <div>
+            <div className='ui container' style={{width: '100%',height: '105%', magin: 'auto'}}  >
                 
 
                 <Grid className="landing-grid">
@@ -70,12 +73,12 @@ class LandingPage extends Component {
                     </Cell>
                 </Grid>
                 
-                
-                <About />
+            </div>
+            <div className='sec'>
+            <CommentBox />
             </div>
             
-            
-           
+            </div>
         )
     }
 }
