@@ -29,16 +29,10 @@ class LandingPage extends Component {
                         className="avatar-img"
                         /> 
                         
-                        {/* <Typical className="intro"
-                            steps={["hey there ! i'm", 1000 , 'Vishal Raj' ,1500 ]}
-                            loop={Infinity}
-                            wrapper="p"
-                        /> */}
 
                         <div className="intro" >
 
-                           
-                            <h1>Vishal Raj</h1>
+                            <h1>hey ! I'm Vishal Raj</h1>
                         </div>
                         
                         </div>

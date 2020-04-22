@@ -10,7 +10,7 @@
   color: red;
 }
 .drawer-color i {
-  font-size: 2vw;
+  font-size: 25px;
   padding-right:6px;
   size: 4vw;
   color: darkslategray;
@@ -34,6 +34,7 @@
 
   margin-top:20px;
  /* padding-top: 5em; */
+ padding-bottom: 1vh;
 
   
 }
@@ -149,17 +150,38 @@
   
   clip-path: polygon(0% 50px, 100% 0%, 100% calc(110% - 50px), 0% 120%);
 }
-.intro {
+ .intro h1{
+  padding: 2vh;
   text-align: center;
-  margin: auto;
-  padding-top: 0.5vw;
-  font-size: 5vw; 
+  justify-content: center;
+  font-family: monospace;
+  font-size: 4vw; 
   color: white;
-  
- 
-/* 
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
+  animation: type 7s steps(18);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+
 }
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  99.9% {
+    border-right: 2px solid white;
+
+    
+  }
+  100% {
+    border: none;
+    width: 18ch;
+  }
+}
+
+
+
 .about {
   background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
   color: white;
