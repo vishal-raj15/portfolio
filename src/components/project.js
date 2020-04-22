@@ -44,22 +44,8 @@ class Project extends Component {
                     <IconButton name="share" />
                 </CardMenu>
                 </Card>
-                
 
-                <Card shadow={5} style={{minWidth:'450' , margin:'auto'}}>
-                <CardTitle style={{color: '#fff' , height: '176px', background:
-                'url(https://reactjs.org/logo-og.png) center / cover'}}>
-                    React-Native project #1
-                </CardTitle>
-                <CardText> this is a gaming app underconstruction</CardText>
-                <CardActions border>
-                    <Button colored><a href="https://github.com/vishal-raj15/prototype">github</a></Button>
 
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
-                </Card>
                 </div>
                 
             ) 
