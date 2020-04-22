@@ -52,7 +52,8 @@
   font-size: 8vw;
   flex-wrap: wrap;
   padding-top: 8px;
-  margin: auto;
+  
+  margin-bottom: 2rem;
 
 }
 
@@ -144,9 +145,9 @@
   padding-top: 10vw;
   
   color: white;
-  height: 100vh;
+  height: 130vh;
   
-  clip-path: polygon(0% 50px, 100% 0%, 100% calc(100% - 50px), 0% 100%);
+  clip-path: polygon(0% 50px, 100% 0%, 100% calc(110% - 50px), 0% 120%);
 }
 .intro {
   text-align: center;
@@ -273,3 +274,7 @@ textarea[type=text], select {
   margin-bottom: 1rem;
 }
 
+.content {
+  margin-bottom: 2rem;
+  height: 120vh;
+}
