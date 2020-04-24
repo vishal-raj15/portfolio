@@ -30,7 +30,7 @@ class App extends Component {
     <Layout>
           <Header className='header-color' title={<span><span style={{ color: '#ddd' }}> <i className="fa fa-user" aria-hidden="true" />   My </span><strong>Profile</strong></span>}>
               <Navigation>
-                  <div className="date"> {this.state.date} </div>
+                 
                   <div className="time"> {this.state.time} </div>
                   <Link to="/portfolio">Home</Link>
                   <Link to="/about">About</Link>
@@ -39,7 +39,7 @@ class App extends Component {
           </Header>
           <Drawer className="drawer-color" title="Menu Bar">
               <Navigation>
-              <div className="date">Date :  {this.state.date} </div>
+              
                   <div className="time">Time :  {this.state.time} </div>
                   <Link to="/portfolio"><i className='fa fa-home' aria-hidden="true" /> Home</Link>
                   <Link to="/about"><i className='fa fa-address-book' aria-hidden="true" /> About</Link>
