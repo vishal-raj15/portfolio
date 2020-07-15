@@ -2,13 +2,11 @@
 
 .header-color {
 
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg"); */
+  background:#1c222a;
 }
 
-.header-color :hover {
-  background-color: black;
-  color: red;
-}
+
 .drawer-color i {
   font-size: 25px;
   padding-right:6px;
@@ -19,10 +17,12 @@
 
 .landing-grid {
 
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   width: 100vw;
   text-align: center;
-  clip-path: polygon(0% 50px, 100% 0%, 100% calc(100% - 30px), 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 10%), 50% 100%,0% calc(100% - 10%));
 
   
 }
@@ -110,7 +110,12 @@
   justify-content: center;
   width: 80%;
 }
+.intro {
+  text-align: center;
+  justify-content: center;
+  padding-top: 120px;
 
+}
 .contact-grid hr {
   border-top: 5px dotted;
   justify-content: center;
@@ -140,50 +145,32 @@
 }
 
 .categorical-tabs {
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
-  
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   font-size: 2vw;
-  padding-top: 10vw;
+  padding-top: 7vh;
   
   color: white;
-  height: 130vh;
+  height: 100vh;
   
-  clip-path: polygon(0% 50px, 100% 0%, 100% calc(110% - 50px), 0% 120%);
 }
  .intro h1{
-  padding: 2vh;
+  padding: 1vh;
   text-align: center;
   justify-content: center;
   font-family: monospace;
   font-size: 4vw; 
   color: white;
-  animation: type 7s steps(18);
-  overflow: hidden;
-  white-space: nowrap;
   border-right: 2px solid white;
 
 }
 
-@keyframes type {
-  0% {
-    width: 0ch;
-  }
-
-  99.9% {
-    border-right: 2px solid white;
-
-    
-  }
-  100% {
-    border: none;
-    width: 18ch;
-  }
-}
-
-
 
 .about {
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   color: white;
   height: 110vh;
   padding-top: 5px;
@@ -195,7 +182,9 @@
 
 .resume-right-col {
 
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   color: white;
   
 }
@@ -220,7 +209,9 @@
 }
 
 .sec {
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   justify-items: center;
   justify-content: center;
 }
@@ -229,7 +220,9 @@
 .comment-box {
   width: 50vw;
   color: #fff;
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   border-radius: 0.875rem;
   justify-content: center;
   padding-left:10vw;
@@ -257,7 +250,9 @@ textarea[type=text], select {
 
 
 .comment-form {
-  background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+  /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+   */
+   background:#84a9ac;
   border-radius: 0.25rem;
   margin-bottom: 2rem;
   padding: 1rem; 
@@ -273,30 +268,71 @@ textarea[type=text], select {
   width: 90vw;
 }
 
-.comment-count {
-  color: $dark-grey;
-}
-#comment-reveal {
-  float: right;
-  background-color: $nc-blue;
-  color: #fff;
-}
-.comment {
- width: 50vw;
- opacity: 1;
-
-
-}
-.comment-body {
-  font-style: italic;
-  margin-left: 1rem;
-  
-}
-.comment-footer {
-  margin-bottom: 1rem;
-}
 
 .content {
   margin-bottom: 2rem;
   height: 120vh;
+}
+.toolbar {
+  background:#84a9ac;
+  position: relative;
+  top: 0;
+  width: 100%;
+  
+  
+}
+
+.logo {
+  font-size: 4vw;
+  color: white;
+  left: 0;
+
+  padding: 0 2rem;
+
+}
+
+.toolbar_navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.infoPage {
+  width: 100vw;
+  position: relative;
+  height: auto;
+
+}
+.toolbar-items {
+  float: right;
+  padding-right: 2vw;
+  color: white;
+  font-family: toul;
+}
+
+.toolbar-items ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+  display: flex;
+  color: white;
+}
+.toolbar-items li {
+  padding: 2rem;
+  color: white;
+
+}
+/* .time{
+  align-items: center;
+  padding: 0.5rem;
+} */
+
+.spacer {
+  flex: 1;
+}
+.title {
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
 }

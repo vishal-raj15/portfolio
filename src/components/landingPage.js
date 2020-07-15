@@ -11,8 +11,7 @@ import { Container , Segment,Input } from 'semantic-ui-react';
 class LandingPage extends Component {
     render() {
         return (
-            <div>
-            <div className='ui container' style={{width: '100%',height: '105%', magin: 'auto'}}  >
+            <div className='infoPage' >
                 
 
                 <Grid className="landing-grid">
@@ -22,17 +21,10 @@ class LandingPage extends Component {
                     
                         <div>
                         
-                        <img 
-                        src="https://aceingautism.org/wp-content/uploads/2019/04/Male-profile-silhouette.jpg"
-                        alt="avatar"
-                        
-                        className="avatar-img"
-                        /> 
-                        
 
                         <div className="intro" >
 
-                            <h1>hey ! I'm Vishal Raj</h1>
+                            <h1>Vishal Raj</h1>
                         </div>
                         
                         </div>
@@ -67,11 +59,6 @@ class LandingPage extends Component {
                     </Cell>
                 </Grid>
                 
-            </div>
-            <div className='sec'>
-            <CommentBox />
-            </div>
-            
             </div>
         )
     }
