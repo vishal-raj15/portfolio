@@ -56,9 +56,9 @@ render() {
                         <div className='toolbar-items'>
                             <ul>
                             {/* <div className="time"> {this.state.time} </div> */}
-                            <li><Link to="/portfolio">Home</Link></li>
-                            <li><Link to="/project">Project</Link></li>
-                            <li><Link to="/about">About</Link></li>
+                            <li>Home</li>
+                            <li>Project</li>
+                            <li>About</li>
                             </ul>
                         
                     </div>

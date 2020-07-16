@@ -22,7 +22,7 @@
    background:#84a9ac;
   width: 100vw;
   text-align: center;
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 10%), 50% 100%,0% calc(100% - 10%));
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 15%), 50% 100%,0% calc(100% - 15%));
 
   
 }
@@ -80,14 +80,16 @@
 }
 .social-link {
   display: flex;
-  justify-content: space-between;
   width: 40%;
   margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5vh;
 }
 .social-link i{
   color: white;
-  font-size: 6vw;
-  padding:8px ;
+  font-size: 3rem;
+  padding:1rem ;
 }
 .contact-body {
   margin : auto;

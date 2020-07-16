@@ -32,7 +32,7 @@ class LandingPage extends Component {
                         
                         <div className="banner-text">
                             <h1>open source enthusiast</h1>
-                        <hr/>  
+                         
                         <p> HTML/CSS | Bootstrap | React | React Native | Godot Engine | Javascript | Block Chain</p>
                         <div className="social-link">
 
