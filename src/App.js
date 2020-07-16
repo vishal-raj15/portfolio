@@ -9,6 +9,7 @@ import LandingPage from './components/landingPage';
 import About from './components/about';
 import Project from './components/project';
 import Headerpage from './components/headerPage';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render(){
@@ -16,19 +17,14 @@ class App extends Component {
 
     // <div style={{height: '700px', position: 'relative'}}>
     //
-         <div>
-           <header> 
+    <div className="App">
            <Headerpage />
-           </header>
-           <section>
+           
            <LandingPage />
-           </section>
-           <section>
+          
              <Project />
-           </section>
-      
-      
-      </div>
+             <About />
+             </div>
 
 
   );

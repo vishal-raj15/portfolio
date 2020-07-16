@@ -6,7 +6,7 @@ import Education from './education';
 class About extends Component {
     render() {
         return (
-            <div className="about">
+            <div className="about" id="about">
                 <Grid>
                     <Cell className="half1" col={4}>
                         <div style={{textAlign:'center'}}>

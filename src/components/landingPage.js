@@ -11,7 +11,7 @@ import { Container , Segment,Input } from 'semantic-ui-react';
 class LandingPage extends Component {
     render() {
         return (
-            <div className='infoPage' >
+            <div className='infoPage' id="home">
                 
 
                 <Grid className="landing-grid">
@@ -33,7 +33,7 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>open source enthusiast</h1>
                          
-                        <p> HTML/CSS | Bootstrap | React | React Native | Godot Engine | Javascript | Block Chain</p>
+                        <p> React | Django | Augmented Reality | OOPs | CPP |Godot Engine | Javascript | Block Chain</p>
                         <div className="social-link">
 
                             <a href="https://www.linkedin.com/in/vishal-raj-021494198/" rel="noopener norefferer" target="_blank">
