@@ -7,6 +7,11 @@ class About extends Component {
     render() {
         return (
             <div className="about" id="about">
+                <div className="intro2" >
+
+                <h1>About Me</h1>
+                </div>
+                <hr />
                 <Grid>
                     <Cell className="half1" col={4}>
                         <div style={{textAlign:'center'}}>
@@ -18,12 +23,12 @@ class About extends Component {
 
                         </div>
 
-                        <h2 style={{paddingTop: '1em',textAlign:'center'}}>Vishal raj</h2>
+                        <h2 style={{paddingTop: '1em',textAlign:'center' }}>Vishal raj</h2>
                         <h4 style={{ color: 'grey' , textAlign:'center'}}>programmer</h4>
                         <h4 style={{ color: 'grey' , textAlign:'center'}}>Btech 2nd Year undergraduate EE student</h4>
                         <hr style={{borderTop : '3px solid #0337b2',textAlign:'center' ,width:"100%"}} />
 
-                        <p>I am vishal raj btech 2nd year undergraduate student from Indian Institute Of Technology , Mandi</p>
+                        <h6>I am vishal raj btech 2nd year undergraduate student from Indian Institute Of Technology , Mandi</h6>
                         <hr style={{borderTop : '3px solid #0337b2',textAlign:'center' ,width:"100%"}} />
                         <h5>Address</h5>
                         <p> himachal pradesh , mandi , North campus</p>

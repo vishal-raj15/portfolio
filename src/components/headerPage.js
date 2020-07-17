@@ -83,6 +83,15 @@ render() {
                               smooth={true}
                               offset={-70}
                               duration={500}>about</Link>
+
+<Link
+                              activeClass="active"
+                              className="a"
+                              to="contact"
+                              spy={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}>contact</Link>
                             
                     </div>
                 </nav>
