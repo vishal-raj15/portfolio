@@ -8,6 +8,7 @@ import { Switch , Route, Router , HashRouter } from 'react-router-dom';
 import LandingPage from './landingPage';
 import Project from './project';
 import About from './about';
+import Contact from './contact';
 import { Link } from 'react-scroll';
 
 
@@ -84,7 +85,7 @@ render() {
                               offset={-70}
                               duration={500}>about</Link>
 
-<Link
+                              <Link
                               activeClass="active"
                               className="a"
                               to="contact"

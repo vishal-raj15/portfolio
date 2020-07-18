@@ -34,25 +34,8 @@ class LandingPage extends Component {
                             <h1>open source enthusiast</h1>
                          
                         <p> React | Django | Augmented Reality | OOPs | CPP |Godot Engine | Javascript | Block Chain</p>
-                        <div className="social-link">
-
-                            <a href="https://www.linkedin.com/in/vishal-raj-021494198/" rel="noopener norefferer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
-                            </a>
-
-                            <a href="https://github.com/vishal-raj15" rel="noopener norefferer" target="_blank">
-                                <i className="fa fa-github-square" aria-hidden="true" />
-                            </a>
-
-                            <a href="https://www.facebook.com/profile.php?id=100005355571095" rel="noopener norefferer" target="_blank">
-                                <i className="fa fa-facebook-square" aria-hidden="true" />
-                            </a>
-
-                            <a href="https://www.instagram.com/vishal_raj3000/" rel="noopener norefferer" target="_blank">
-                                <i className="fa fa-instagram" aria-hidden="true" />
-                            </a>
-
-                        </div>
+                        <br />
+                        
                         </div>
 
                         

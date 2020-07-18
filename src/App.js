@@ -9,6 +9,7 @@ import LandingPage from './components/landingPage';
 import About from './components/about';
 import Project from './components/project';
 import Headerpage from './components/headerPage';
+import Contact from './components/contact';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
           
              <Project />
              <About />
+             <Contact />
              </div>
 
 

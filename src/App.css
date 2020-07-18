@@ -10,19 +10,16 @@
 
   /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
    */
-   background:#84a9ac;
+   background: rgb(48, 47, 47);
   width: 100vw;
+  height: 70vh;
   text-align: center;
   clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 15%), 50% 100%,0% calc(100% - 15%));
 
   
 }
 
-/* .half1 h1,p,h2,h4,h6{
-  color: black;
-  font-family: 'Indie Flower', sans-serif;
 
-} */
 .avatar-img {
   height: 250px;
 
@@ -45,6 +42,7 @@
   
   
 }
+
 .project-grid {
   display: flex;
   
@@ -90,12 +88,15 @@
 }
 .contact-body {
   margin : auto;
-  background:grey;
+  background: rgb(48, 47, 47);
+  
   width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-  position: fixed;
+  position: relative;
+  border-radius: 10px;
+
 }
 .contact-grid {
   font-family: 'Raleway', sans-serif;
@@ -146,7 +147,7 @@
 .categorical-tabs {
   /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
    */
-   background:#84a9ac;
+   background: rgb(48, 47, 47);
   font-size: 2vw;
   padding-top: 7vh;
   justify-content: center;
@@ -169,10 +170,20 @@
 }
 
 
+.heading {
+  padding: 2vh;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  
+
+}
+
+
 .about {
   /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
    */
-   background:#84a9ac;
+   background: rgb(48, 47, 47);
   color: white;
   height: 140vh;
   padding-top: 10vh;
@@ -181,12 +192,32 @@
 
   
 }
+.myinfo {
+  padding: 5vh;
+  margin: auto;
+  width: 70%;
+  height: auto;
+  color: white;
+
+
+
+}
+
+.in1 i {
+  float: left;
+  font-size: 2rem;
+}
+.in2 i {
+  padding: 2hv 2vh;
+  float: left;
+  font-size: 2rem;
+}
 
 .resume-right-col {
 
   /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
    */
-   background:#84a9ac;
+   background: rgb(48, 47, 47);
   color: white;
   
 }
@@ -219,7 +250,7 @@
 
 
 .toolbar {
-  background:#84a9ac;
+  background: rgb(48, 47, 47);
   position: relative;
   top: 0;
   width: 100%;
@@ -237,6 +268,11 @@
   padding-top: 2vh;
 
 
+}
+.infotab {
+  background: rgb(48, 47, 47);
+  height: 100%;
+  width: 100%;
 }
 
 .toolbar_navigation {
@@ -290,12 +326,64 @@
   
   
 }
+.topco2 {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+
+
+}
+.containerd {
+  height: auto;
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  top: 50%;
+}
+.topco {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(48, 47, 47);
+  margin: auto;
+
+}
+.topco3 {
+  justify-content: center;
+  border-radius: 20px;
+  left: 5%;
+  top: 50%;
+  height: 100%;
+  width:100%;
+}
+.right-bar {
+  justify-content: center;
+  height: 60vh;
+  width: 50vw;
+  background: rgb(29, 28, 28);
+  padding: 2vw 2vw;
+  border-radius: 20px;
+
+}
+
 
 .intro2 h1{
   font-size:3rem;
   font-family: 'Knewave', cursive;
   justify-content: center;
   text-align: center;
+  color: white;
+}
+.intro3 {
+  font-size: medium;
+  font-family: 'Knewave', cursive;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 5vh;
 }
 
 .overflow {
