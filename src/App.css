@@ -186,22 +186,22 @@
    */
    background: rgb(48, 47, 47);
   color: white;
-  height: 140vh;
+  height: 120vh;
   padding-top: 10vh;
   /* clip-path: polygon(0% 15%, 100% 0%, 100% calc(100% - 0%),0% calc(100% - 0%)); */
 
 
   
 }
+
+
+
 .myinfo {
   padding: 5vh;
   margin: auto;
-  width: 70%;
+  width: 50%;
   height: auto;
-  color: white;
-
-
-
+  color: #fff;
 }
 
 .in1 i {
@@ -347,7 +347,7 @@
   top: 50%;
 }
 .topco {
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   background: rgb(48, 47, 47);
   margin: auto;
@@ -360,6 +360,7 @@
   top: 50%;
   height: 100%;
   width:100%;
+  display: flex;
 }
 .right-bar {
   justify-content: center;
@@ -368,6 +369,7 @@
   background: rgb(29, 28, 28);
   padding: 2vw 2vw;
   border-radius: 20px;
+  display: flex;
 
 }
 
