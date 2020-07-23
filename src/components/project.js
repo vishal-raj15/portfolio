@@ -361,7 +361,9 @@ class Project extends Component {
         }
         else if(this.state.activeTab === 6){
             return(
-
+                <div>
+                <Grid>
+                <Cell className="overflow" col={4}>
                 <Card shadow={5} className="styl" style={{minWidth:'450' }}>
                 <CardTitle style={{color: '#fff' , height: '176px', background:
                 'url(https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png) center / cover'}}>
@@ -378,6 +380,7 @@ class Project extends Component {
                     <IconButton name="share" />
                 </CardMenu>
             </Card>
+            </Cell></Grid></div>
 
             )
         }
