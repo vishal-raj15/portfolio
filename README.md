@@ -3,8 +3,8 @@
 my site : https://vishal-raj15.github.io/portfolio/
 
 
-###clone this repo .
+### clone this repo .
 
-###npm install
+### npm install
 
-###npm start
+### npm start
