@@ -14,7 +14,7 @@ class LandingPage extends Component {
             <div className='infoPage' id="home">
                 
 
-                <Grid className="landing-grid">
+                <div className="landing-grid">
                 
                         <div className="intro" >
 
@@ -28,7 +28,7 @@ class LandingPage extends Component {
                         
                         
                         
-                </Grid>
+                </div>
                 
             </div>
         )
