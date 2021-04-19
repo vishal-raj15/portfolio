@@ -16,30 +16,18 @@ class LandingPage extends Component {
 
                 <Grid className="landing-grid">
                 
-                    <Cell col={12}>
-
-                    
-                        <div>
-                        
-
                         <div className="intro" >
 
-                            <h1>Vishal Raj</h1>
-                        </div>
-                        
-                        </div>
-                        
-                        
-                        <div className="banner-text">
-                            <h1>open source enthusiast</h1>
-                         
-                        <p> React | Django | Augmented Reality | OOPs | CPP |Godot Engine | Javascript | Block Chain</p>
-                        <br />
-                        
+                            <h1>Hi, my name is Vishal Raj</h1>
+
+                        </div><div className="secx" >
+                        <h1>I develop web apps/mobile apps/Games/things/UI</h1>
+
                         </div>
 
                         
-                    </Cell>
+                        
+                        
                 </Grid>
                 
             </div>

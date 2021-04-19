@@ -9,7 +9,9 @@ import LandingPage from './landingPage';
 import Project from './project';
 import About from './about';
 import Contact from './contact';
-import { Link } from 'react-scroll';
+// import { Link, animateScroll as scroll } from 'react-scroll';
+
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 // class Headerpage extends Component {
@@ -49,50 +51,89 @@ import { Link } from 'react-scroll';
 class Headerpage extends Component {
 
 render() {
+
+  const strToDecode = '.RAJI0() ';
+  const w = '<Work />';
+  const h = '<Home />';
+  const a = '<About />';
+  const c = '<Contact />';
+const parser = new DOMParser();
+const decodedString = parser.parseFromString(`<!doctype html><body>${strToDecode}`, 'text/html').body.textContent;
+const decodedwork = parser.parseFromString(`<!doctype html><body>${w}`, 'text/html').body.textContent;
+const decodedhome = parser.parseFromString(`<!doctype html><body>${h}`, 'text/html').body.textContent;
+const decodedabout = parser.parseFromString(`<!doctype html><body>${a}`, 'text/html').body.textContent;
+const decodedcontact = parser.parseFromString(`<!doctype html><body>${c}`, 'text/html').body.textContent;
+
   return (
 
 <nav className='toolbar' >
                 <nav className='toolbar_navigation'>
-                    <div className='logo' >My Page</div>
+  <div className='logo' > { decodedString}</div>
                     <div className="spacer" />
                         <div className='toolbar-items'>
                            
                               <Link
-                              activeClass="active"
+
+                              style={{ textDecoration: 'none' }}
+                             activeClass="active"
                               className="a"
-                              to="home"
-                              spy={true}
-                              smooth={true}
-                              offset={-70}
-                              duration={500}>home</Link>
+                              smooth to="#home"
+                              // to="home"
+                              // spy={true}
+                              // smooth={true}
+
+                              
+                              // offset={0}
+                              // duration={500}
+                              
+                              >{h}</Link>
                             {/* <div className="time"> {this.state.time} </div> */}
                             
                             <Link
-                              activeClass="active"
+                            // to="project"
+                             activeClass="active"
+                             style={{ textDecoration: 'none' }}
                               className="a"
-                              to="project"
-                              spy={true}
-                              smooth={true}
-                              offset={-70}
-                              duration={500}>project</Link>
+                              smooth to="#project"
+                              
+                              // spy={true}
+                              // smooth={true}
+                              // duration={500}
+                              
+                              
+                              >{w}</Link>
+
+
+
+                              
 
                             <Link
-                              activeClass="active"
+                             activeClass="active"
                               className="a"
-                              to="about"
-                              spy={true}
-                              smooth={true}
-                              offset={-70}
-                              duration={500}>about</Link>
+                              style={{ textDecoration: 'none' }}
+                              smooth to="#about_me"
+                              // to="about"
+                              // spy={true}
+                              // smooth={true}
+                              // offset={0}
+                              // duration={500}
+                              
+                              >{a}</Link>
 
                               <Link
-                              activeClass="active"
+                             activeClass="active"
+                             style={{ textDecoration: 'none' }}
                               className="a"
-                              to="contact"
-                              spy={true}
-                              smooth={true}
-                              offset={-70}
-                              duration={500}>contact</Link>
+
+                              smooth to="#contact"
+                              // to="contact"
+                              // spy={true}
+                              // smooth={true}
+                              // offset={0}
+                              // duration={500}
+                              
+                              
+                              >{c}</Link>
                             
                     </div>
                 </nav>

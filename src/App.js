@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 
-import './App.css';
+import './App.scss';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
 import { Link,Switch , Route, Router , HashRouter } from 'react-router-dom';
@@ -34,3 +34,4 @@ class App extends Component {
 }
 
 export default App;
+

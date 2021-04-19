@@ -57,13 +57,22 @@ class Contact extends Component {
     //   }
    
     render() {
+
+
+        const cdfdfdfk = '< Contact />';
+        const parser = new DOMParser();
+        const cntefdkf =parser.parseFromString(`<!doctype html><body>${cdfdfdfk}`, 'text/html').body.textContent;
+
+
         return (
             <div className="topco" id="contact">
-                <div className="intro2" ><h1>Get in Touch</h1> </div>
+                <div className="intro2" >
+                <h1 style={{ textAlign:"center"}}>{cntefdkf}</h1>
+                     </div>
                 <hr />
-                <div className="intro3" >Feel free to drop me a line to contact me</div>
-                <Grid>
-                <Cell className="topco2" col={6}>
+                <div className="intro3" >Feel free to drop a line to contact me</div>
+                
+                <div className="topco2">
                     <div className="infotab">
                           <div className="containerd">
                            <div className="heading"> Feel Free To Contact</div>
@@ -83,9 +92,9 @@ class Contact extends Component {
 
                         
                       
-                </Cell>
+                </div>
 
-                <Cell className="topco3" col={6}>
+                <div className="topco3" >
                     <div className="right-bar">
             <div className="container p-3  text-white" >
             <div className="contact-body">
@@ -105,8 +114,11 @@ class Contact extends Component {
   <br />
   <button type="submit" className="btn btn-info btn-lg btn-block">Send a message</button>
 </form>
-</div> </div></div></Cell>
-            </Grid>
+</div> </div></div></div>
+          
+
+
+
             <hr />
 
             <div className="social-link">

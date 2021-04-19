@@ -7,8 +7,8 @@ import ReactMapGL ,{Marker} from 'react-map-gl';
     super(props);
     this.state = {
     viewport: {
-      width:400,
-      height: 300,
+      width:'100%',
+      height:'400px',
       latitude: 31.7754,
       longitude:  76.9861,
       zoom: 15,
