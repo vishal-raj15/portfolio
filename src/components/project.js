@@ -442,7 +442,7 @@ class Project extends Component {
 			<div className="info-col info-col-left">
 				<div className="info-item orange">
 					<div className="info-item-text">
-						<h3>Power<span className="mark">Station.</span></h3>
+						<h3>Power<span className="mark">Station</span></h3>
 						<p>An online booking webapp for elctric fuel for electric vehicles, before
 visiting power station.</p>
 
@@ -461,7 +461,7 @@ visiting power station.</p>
 				</div>
 				<div className="info-item green">
 					<div className="info-item-text">
-						<h3>Hair <span className="mark">Diary.</span></h3>
+						<h3>Hair <span className="mark">Diary</span></h3>
 						<p>Task reminder android app.</p>
                         <p>Fetching user data from a post api with all attributes and media on a
                                 specific day of the calendar.</p>
@@ -479,7 +479,7 @@ visiting power station.</p>
 				</div>
                 <div className="info-item orange">
 					<div className="info-item-text">
-						<h3>News <span className="mark">Feed.</span></h3>
+						<h3>News<span className="mark">Feed</span></h3>
 						<p>A decentralised app for posting news or any new information by the
 users with the help of Ethereum blockchain technology .</p>
 
@@ -497,7 +497,7 @@ users with the help of Ethereum blockchain technology .</p>
                 
                 <div className="info-item green">
 					<div className="info-item-text">
-						<h3>Video <span className="mark">Request.</span></h3>
+						<h3>Video<span className="mark">Request</span></h3>
 						<p>this uses user input data to fetch request from youtube api , atmost 30 video can be fetched for each search.</p>
 
                         <Button colored><a href="https://github.com/vishal-raj15/video_request">github</a></Button>
@@ -516,7 +516,7 @@ users with the help of Ethereum blockchain technology .</p>
 			<div className="info-col info-col-right">
 				<div className="info-item red">
 					<div className="info-item-text">
-						<h3>AR<span className="mark">one.</span></h3>
+						<h3>AR<span className="mark">one</span></h3>
                             <p>A marker-based Augmented Reality app build with unity and vuforia. </p>
 
 <Button colored><a href="https://drive.google.com/file/d/1tdwx2hZXlLEhmT-WOy8CPDVV1kXKiXeM/view">.apk</a></Button>
@@ -534,7 +534,7 @@ users with the help of Ethereum blockchain technology .</p>
 				</div>
 				<div className="info-item blue">
 					<div className="info-item-text">
-						<h3>X <span className="mark">plore.</span></h3>
+						<h3>X<span className="mark">plore</span></h3>
                         <p> A 2d Space game where Spaceship in 0 gravity have ability to move in
 infinite 2d space and can doutch and destroy obstacles.</p>
 
@@ -553,7 +553,7 @@ infinite 2d space and can doutch and destroy obstacles.</p>
 
                 <div className="info-item red">
 					<div className="info-item-text">
-						<h3>Malaria<span className="mark">Detector.</span></h3>
+						<h3>Malaria<span className="mark">Detector</span></h3>
 						
                         <p> Deep learning-based Convolutional Neural Network model which can
 detect malarial parasites from microscopic images of blood samples
@@ -575,7 +575,7 @@ with accuracy of about 98 percent</p>
 
                 <div className="info-item blue">
 					<div className="info-item-text">
-						<h3>Emotion<span className="mark">Detector.</span></h3>
+						<h3>Emotion<span className="mark">Detector</span></h3>
                         <p> A OpenCV project for user's emotions detection with tensorflow and
 openCv ,this model can recognize or identify different human
 emotions to include happiness, sadness, fear, anger, neutral of an
