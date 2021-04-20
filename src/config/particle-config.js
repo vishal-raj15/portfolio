@@ -1,10 +1,10 @@
 const particleConfig = {
     particles: {
       number: {
-        value: 200,
+        value: 100,
         density: {
           enable: true,
-          value_area: 1000
+          value_area: 900
         }
       },
       color: {
@@ -17,7 +17,7 @@ const particleConfig = {
           color: "#000000"
         },
         polygon: {
-          nb_sides: 7
+          nb_sides: 5
         },
         image: {
           src: "img/github.svg",
@@ -26,7 +26,7 @@ const particleConfig = {
         }
       },
       opacity: {
-        value: 0.8,
+        value: 0.6,
         random: false,
         anim: {
           enable: false,
