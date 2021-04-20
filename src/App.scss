@@ -444,18 +444,19 @@ width: 100%;
 
   text-align: center;
   justify-content: center;
-  padding-top: 20vh;
-  height: 60px;
-  padding-bottom:20vh;
+  top:30%;
+  left:30%;
+  position:absolute ;
 
 }
 
 .secx {
   display:inline-block;
-
+  top:50%;
+  left:20%;
   text-align: center;
   padding-top: 0%;
-  height:80px;
+  position: absolute;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
@@ -495,6 +496,7 @@ width: 100%;
    	background: #3A1C71;
 	background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
 	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+  
   width: 100vw;
   height: 80vh;
   text-align: center;

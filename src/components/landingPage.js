@@ -6,6 +6,7 @@ import Project from './project';
 import About from './about';
 import CommentBox from './commentBox';
 import { Container , Segment,Input } from 'semantic-ui-react';
+import ParticleBackground from '../ParticleBackground';
 
 
 class LandingPage extends Component {
@@ -13,14 +14,19 @@ class LandingPage extends Component {
         return (
             <div className='infoPage' id="home">
                 
-
+                
                 <div className="landing-grid">
+
+                
                 
                         <div className="intro" >
+                            
 
                             <h1>Hi, my name is Vishal Raj</h1>
 
-                        </div><div className="secx" >
+                        </div>
+                        
+                        <ParticleBackground /><div className="secx" >
                         <h1>I develop web apps/mobile apps/Games/things/UI</h1>
 
                         </div>

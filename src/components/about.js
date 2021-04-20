@@ -2,6 +2,8 @@ import React, { Component} from 'react';
 import { Grid ,Cell} from 'react-mdl';
 import Education from './education';
 import Cmap from './cmap';
+import ParticleBackground from '../ParticleBackground';
+
 
 class About extends Component {
     render() {
@@ -23,8 +25,9 @@ class About extends Component {
 
         return (
             <div className="about" id="about_me">
+                
                 <div className="intro2" >
-
+                
                 <h1 style={{ textAlign:"center"}}>{abot}</h1>
                 </div>
                 <hr />
@@ -36,6 +39,7 @@ class About extends Component {
                             />
 
                         </div>
+                        
 
                         <h2 style={{paddingTop: '1em',textAlign:'center' }}>Vishal raj</h2>
                         <h4 style={{ color: 'grey' , textAlign:'center'}}>software developer</h4>

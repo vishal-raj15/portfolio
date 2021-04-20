@@ -11,7 +11,6 @@ import Project from './components/project';
 import Headerpage from './components/headerPage';
 import Contact from './components/contact';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
 class App extends Component {
   render(){
     return (
@@ -19,6 +18,8 @@ class App extends Component {
     // <div style={{height: '700px', position: 'relative'}}>
     //
     <div className="App">
+          
+          
            <Headerpage />
            
            <LandingPage />

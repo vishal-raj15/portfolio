@@ -75,7 +75,6 @@ class Contact extends Component {
                 <div className="topco2">
                     <div className="infotab">
                           <div className="containerd">
-                           <div className="heading"> Feel Free To Contact</div>
                            <div>Hello Everyone! if you have qyery or any suggestion then please mail me. Thank You.</div>
                           
                         </div>
@@ -135,7 +134,7 @@ class Contact extends Component {
                                 <i className="fa fa-facebook-square" aria-hidden="true" />
                             </a>
 
-                            <a href="https://www.instagram.com/vishal_raj3000/" rel="noopener norefferer" target="_blank">
+                            <a href="https://www.instagram.com/letitberaj/" rel="noopener norefferer" target="_blank">
                                 <i className="fa fa-instagram" aria-hidden="true" />
                             </a>
 
