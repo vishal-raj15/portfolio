@@ -325,12 +325,23 @@ width: 100%;
 
 }
 .a {
-  padding-right: 2vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 0.6vw;
+  padding-bottom:0.6vw;
   font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 1.2rem;
+  border-radius: 2em;
 
 }
+
+.a:hover{
+
+  background: rgba(48, 51, 48, 0.678);
+  color: rgb(221, 227, 233);
+}
+
 
 
 /* .time{
@@ -433,12 +444,58 @@ width: 100%;
 
   }
 
+  .intro {
+
+    
+    top:30vh;
+    left:20vw;
+    position:absolute ;
+  
+  }
+
+  .intro h1{
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: calc(1em + 1.8vw);
+    color: white;
+    /* border-right: 2px solid white; */
+  
+  }
+
+
+  .secx {
+
+  
+    display:inline-block;
+    z-index: 2;
+    top:40vh;
+    left:5vw;
+    text-align: center;
+    padding-top: 0%;
+    position:absolute ;
+    
+  }
+
+  .secx h1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: calc(1em + 1.8vw);
+    color: white;
+    /* border-right: 2px solid white; */
+  
+  }
+
+
+
   [class*="col-"] {
     width: 100%;
   }
 
 }
 
+@media screen and (min-width: 800px) {
 
 .intro {
 
@@ -451,12 +508,16 @@ width: 100%;
 }
 
 .secx {
+
+  
   display:inline-block;
-  top:50%;
+  z-index: 2;
+  top:40%;
   left:20%;
   text-align: center;
   padding-top: 0%;
-  position: absolute;
+  position:absolute ;
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
@@ -478,6 +539,8 @@ width: 100%;
   font-size: calc(1em + 1.8vw);
   color: white;
   /* border-right: 2px solid white; */
+
+}
 
 }
 
@@ -609,5 +672,18 @@ width: 100%;
 
 
 @import '/work';
+.butnLinks {
+
+  border-radius: 2em;
+  color:white;
+}
+
+
+
+
+
+
+
+
 
 

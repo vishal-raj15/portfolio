@@ -30,8 +30,6 @@ class LandingPage extends Component {
                         <h1>I develop web apps/mobile apps/Games/things/UI</h1>
 
                         </div>
-
-                        
                         
                         
                 </div>

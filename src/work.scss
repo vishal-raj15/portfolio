@@ -58,6 +58,13 @@ img { max-width: 100%; }
 	}
 }
 
+.info-item{
+
+	.blue{
+		background-color: aqua;
+	}
+}
+
 .info {
   display:flex;
 	flex-wrap: wrap;
@@ -123,8 +130,9 @@ img { max-width: 100%; }
 		    }
 		}
 		&-text { 
+			
 			box-sizing:border-box;
-			background: #fff;
+			// place to change the background 
 			padding: 2em;
 			min-height: $h-triangle * 2;
 			position: relative;
@@ -132,7 +140,7 @@ img { max-width: 100%; }
 			& h3 {
 				font-size: 1.5em;
 				color: $header-grey;
-				padding: 1em 0; 
+				padding: 0 0; 
 			}
 			& p {
 				color: $text-c;

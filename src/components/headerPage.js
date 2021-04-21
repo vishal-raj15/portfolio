@@ -12,7 +12,7 @@ import Contact from './contact';
 // import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { HashLink as Link } from 'react-router-hash-link';
-
+import {Logo } from './arte.png';
 
 // class Headerpage extends Component {
 
@@ -68,6 +68,8 @@ const decodedcontact = parser.parseFromString(`<!doctype html><body>${c}`, 'text
 
 <nav className='toolbar' >
                 <nav className='toolbar_navigation'>
+
+
   <div className='logo' > { decodedString}</div>
                     <div className="spacer" />
                         <div className='toolbar-items'>
