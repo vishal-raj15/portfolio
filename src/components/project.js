@@ -36,8 +36,6 @@ class Project extends Component {
 
             <div className="categorical-tabs" id='project'>
 
-				{/* <ParticleBackground /> */}
-                <div className="title"> {w}</div>
                 {/* <Tabs className="tab" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab style={{color:"white"}}>React</Tab>
                     <Tab style={{color:"white"}}>Godot</Tab>

@@ -98,19 +98,24 @@ html, body {
   padding: 1em;
 }
 .social-link {
+  padding-top: 20px;
   display: flex;
-  width: 40%;
   margin: auto;
   justify-content: center;
   text-align: center;
   padding-bottom: 5vh;
+  background-color: rgb(32, 29, 29);
  
 
 }
 .social-link i{
+
   color: white;
   font-size: 3rem;
-  padding:1rem ;
+  padding:0.7rem ;
+  margin: 1vw 1vw;
+  border-radius: 10%;
+  // background-color: rgb(53, 51, 51);
 }
 .contact-body {
   margin : auto;
@@ -201,13 +206,10 @@ html, body {
 .about {
   /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
    */
-   	background: #3A1C71;
-	background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+   background-color:#FEFFED ;
   color: white;
   
   padding-top: 10vh;
-  padding-bottom: 10vh;
   /* clip-path: polygon(0% 15%, 100% 0%, 100% calc(100% - 0%),0% calc(100% - 0%)); */
 width: 100%;
 
@@ -217,20 +219,14 @@ width: 100%;
 
 
 .myinfo {
-  padding: 5vh;
   margin: auto;
   width: 50%;
   height: auto;
   color: #fff;
 }
 
-.in1 i {
-  float: left;
-  font-size: 2rem;
-}
 .in2 i {
-  padding: 2hv 2vh;
-  float: left;
+  padding: 2vw 2vw;
   font-size: 2rem;
 }
 
@@ -250,13 +246,10 @@ width: 100%;
   color: white;
   
 }
-.map-icon {
-    font-size: 2px;
-    height: 25px;
-    width: 25%;
-    cursor: pointer;
+// .map-icon {
+//     position: fixed;
     
-}
+// }
 
 .naem {
   color: white;
@@ -393,6 +386,7 @@ width: 100%;
 	background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
 	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
   margin: auto;
+  padding-top: 5vh;
 
 }
 .topco3 {
@@ -400,9 +394,9 @@ width: 100%;
   border-radius: 20px;
   left: 5%;
   top: 50%;
-  height: 100%;
   width:100vw;
   display: flex;
+  padding-bottom: 10vh;
 
   background-color: transparent;
 }
@@ -417,12 +411,26 @@ width: 100%;
 
 
 .intro2 h1{
-  text-align: center;
   color: #fff;
-  font-size: calc(1em + 1.8vw);
-  font-family: 'Roboto';
+  font-size: 2.4rem;
+  text-align: center;
   justify-content: center;
+  font-family: "Roboto Slab", serif;
+  
 }
+
+.intro2 h2{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 5vh;
+  color: white;
+  margin: 0 auto;
+}
+
+
 .intro3 {
   font-size: medium;
   font-family: 'Knewave', cursive;
@@ -439,6 +447,15 @@ width: 100%;
 @media screen and (max-width: 800px) {
   .toolbar{background: 'red';}
   
+  .metext{
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0 auto;
+    line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  
+}
  
 .intro {
 
@@ -495,6 +512,13 @@ width: 100%;
 }
 
 @media screen and (min-width: 800px) {
+
+  .metext{
+
+    width: 50vw;
+    line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+}
 
 .intro {
 
@@ -784,3 +808,30 @@ width: 100%;
   height: 20px;
   background-color: yellow;
 }
+
+
+
+
+
+.cole{
+  color: rgb(250, 133, 66);
+  font-size: 1.4rem;
+}
+
+.getic{
+
+  justify-content: center;
+  justify-items: center;
+  
+  
+}
+.getic i{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  padding-bottom: 3vh;
+}
+

@@ -39,23 +39,6 @@ class Contact extends Component {
                 message:""
             });
     };
-
-
-    // sendEmail(e) {
-    //     e.preventDefault();
-    
-    //     emailjs.sendForm("gmail",
-    //         "template_GipBbFcU",
-    //         ".contact-form" ,
-    //         "user_EWbIWk099ZUQuBQnxkB3h")
-
-    //       .then((result) => {
-    //           console.log(result.text);
-    //       }, (error) => {
-    //           console.log(error.text);
-    //       });
-    //   }
-   
     render() {
 
 
@@ -66,24 +49,18 @@ class Contact extends Component {
 
         return (
             <div className="topco" id="contact">
-                <div className="intro2" >
-                <h1 style={{ textAlign:"center"}}>{cntefdkf}</h1>
+
+            <div className="getic" style={{ justifyContent:'center' , justifyItems:'center'}}><i class="fa fa-envelope" aria-hidden="true"></i> </div>
+                          
+
+              <div className="intro2" >
+                <h1 style={{ textAlign:"center"}}> GET IN TOUCH</h1>
                      </div>
-                <hr />
-                <div className="intro3" >Feel free to drop a line to contact me</div>
-                
                 <div className="topco2">
                     <div className="infotab">
-                          <div className="containerd">
-                           <div>Hello Everyone! if you have qyery or any suggestion then please mail me. Thank You.</div>
                           
-                        </div>
                         <div className="myinfo">
-                           <div className="in1"><i class="fa fa-address-book" aria-hidden="true"></i>   Himachal Pradesh Mandi IIT Mandi North Campus</div>
-                           <br />
                            <div className="in2"><i class="fa fa-envelope" aria-hidden="true"></i>vishalraj1380@gmail.com</div>
-                           <br />
-                           <div className="in2"><i class="fa fa-envelope" aria-hidden="true"></i>vishalraj3344@gmail.com</div>
                            
                           </div>
 
@@ -100,11 +77,11 @@ class Contact extends Component {
 
             <form className="contact-form"  onSubmit={this.handleSubmit.bind(this)} >
             <div className="form-group">
-    <input type="name" name="name" className="form-control" id="name" aria-describedby="nameHelp" value={this.state.name} onChange={this.handleChange.bind(this)} placeholder="abc"/>
+    <input type="name" name="name" className="form-control" id="name" aria-describedby="nameHelp" value={this.state.name} onChange={this.handleChange.bind(this)} placeholder="name"/>
   </div>
   <br />
   <div className="form-group">
-    <input type="email" name="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.handleChange.bind(this)} placeholder="abc@gmail.com"/>
+    <input type="email" name="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.handleChange.bind(this)} placeholder="email"/>
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1"></label>
@@ -117,8 +94,6 @@ class Contact extends Component {
           
 
 
-
-            <hr />
 
             <div className="social-link">
 

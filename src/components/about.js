@@ -4,6 +4,11 @@ import Education from './education';
 import Cmap from './cmap';
 import ParticleBackground from '../ParticleBackground';
 
+import Me from './me.jpeg';
+import Newmap from './newmap';
+
+
+
 
 class About extends Component {
     render() {
@@ -24,43 +29,29 @@ class About extends Component {
         const cnt =parser.parseFromString(`<!doctype html><body>${c}`, 'text/html').body.textContent;
 
         return (
-            <div className="about" id="about_me">
+            <div className="about" id="about_me" >
                 
                 <div className="intro2" >
                 
-                <h1 style={{ textAlign:"center"}}>{abot}</h1>
+
+                <h2 style={{ textAlign:"center" , color:'black'}}> A LITTLE BIT ABOUT ME</h2>
                 </div>
-                <hr />
+                
                         <div style={{textAlign:'center'}}>
                             <img 
-                            src="https://aceingautism.org/wp-content/uploads/2019/04/Male-profile-silhouette.jpg"
+                            src={Me}
                             slt="avatar"
-                            style={{height:'200px'}}
+                            style={{height:'200px',width:'200px', borderRadius:'50%'}}
                             />
+
+                        </div>
+
+                        <div className='metext' style={{ textAlign:'center' ,margin:'0 auto' , justifyContent:'center', paddingTop:'5vh' , paddingBottom:'5vh' , fontSize:'1.2rem' ,color: '#27221f'}}>
+                        Hey! My name is Vishal Raj and I'm a coding enthusiast with keen interest in the field of Software Development. As of now, I am pursuing my B.Tech in Electrical Engineering from <span className='cole'>Indian Institute of Technology Mandi</span> . With my knowledge of web development, I build webapps that teach me more than I already know and that can be used for a cause. I have a knack for developing and learning. I aspire to have a career where I learn cutting edge technologies and build impeccable things
 
                         </div>
                         
 
-                        <h2 style={{paddingTop: '1em',textAlign:'center' }}>Vishal raj</h2>
-                        <h4 style={{ color: 'grey' , textAlign:'center'}}>software developer</h4>
-                        <h4 style={{ color: 'grey' , textAlign:'center'}}>Btech 3nd Year undergraduate EE student</h4>
-
-                        <hr style={{borderTop : '3px solid #0337b2',textAlign:'center' ,width:"100%"}} />
-
-                        <h6 style={{ textAlign:"center"}}>College : Indian Institute Of Technology , Mandi</h6>
-                        <h6 style={{ textAlign:"center"}}> 2018 - 2022</h6>
-
-                        <hr style={{borderTop : '3px solid #0337b2',textAlign:'center' ,width:"100%"}} />
-                        <h5 style={{ textAlign:"center"}}>Address</h5>
-                        <p style={{ textAlign:"center"}}> himachal pradesh , mandi , North campus</p>
-                        
-
-
-                        <h5 style={{ textAlign:"center"}}>{ski}</h5>
-                        <hr style={{borderTop : '3px solid #0337b2',textAlign:'center' ,width:"100%"}} />
-                        <h5 style={{ textAlign:"center"}}>{s}</h5>
-                        <h5 style={{ textAlign:"center"}}>{f}</h5>
-                        <h5 style={{ textAlign:"center"}}>{o}</h5>
 
                         {/* <p><i className="fa fa-envelope" aria-hidden="true" />  vishalraj1380@gmail.com</p>
                         <p><i className="fa fa-envelope" aria-hidden="true" />  b18151@students.iitmandi.ac.in</p>
@@ -76,8 +67,8 @@ class About extends Component {
                         </div> */}
 
 
-                        <Cmap />
-                    
+                        {/* <Cmap /> */}
+                        <Newmap/>
                      </div>
         )
     }

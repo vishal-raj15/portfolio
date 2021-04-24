@@ -2,6 +2,8 @@ import React, {Component , setState} from 'react';
 import ReactMapGL ,{Marker} from 'react-map-gl';
  import 'mapbox-gl/dist/mapbox-gl.css';
  var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+ 
+ 
  class Cmap extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,6 @@ import ReactMapGL ,{Marker} from 'react-map-gl';
   render() {
    
     return (
-      <div className="map-img" >
       <ReactMapGL
         {...this.state.viewport}
         
@@ -31,12 +32,12 @@ import ReactMapGL ,{Marker} from 'react-map-gl';
         >
         <Marker 
               anchor = "bottom"
-              latitude={this.state.viewport.latitude}
-              longitude={this.state.viewport.longitude}>
+              latitude={31.7754}
+              longitude={31.7754}>
               <img className="map-icon" src="https://img.icons8.com/color/72/marker.png"></img> 
               <div>iit mandi</div></Marker>
         </ReactMapGL>
-      </div>
+     
     );
   }
 }
