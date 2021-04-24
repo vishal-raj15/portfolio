@@ -12,41 +12,9 @@ import Contact from './contact';
 // import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { HashLink as Link } from 'react-router-hash-link';
-import {Logo } from './arte.png';
+import Logo from './vish.png';
 
-// class Headerpage extends Component {
 
-//     state = { time :"", date :""};
-
-//   componentDidMount() {
-//     setInterval(() => {
-//       this.setState({time : new Date().toLocaleTimeString(), date : new Date().toLocaleDateString() })
-//     },1000)
-//   }
-
-//     render() {
-//         return (
-            // <header className='toolbar' >
-            //     <nav className='toolbar_navigation'>
-            //         <div className='logo' > Web DEV</div>
-            //         <div className="spacer" />
-            //             <div className='toolbar-items'>
-            //                 <ul>
-            //                 {/* <div className="time"> {this.state.time} </div> */}
-            //                 <li><Link to="/portfolio">Home</Link></li>
-            //                 <li><Link to="/project">Project</Link></li>
-            //                 <li><Link to="/about">About</Link></li>
-            //                 </ul>
-                        
-            //         </div>
-            //     </nav>
-                
-
-            // </header>
-//         )
-//     }
-// }
-// export default Headerpage;
 
 class Headerpage extends Component {
 
@@ -70,7 +38,7 @@ const decodedcontact = parser.parseFromString(`<!doctype html><body>${c}`, 'text
                 <nav className='toolbar_navigation'>
 
 
-  <div className='logo' > { decodedString}</div>
+  <div className='logo' ><img src={Logo} alt="Logo" style={{ height: '35px' , width:'40px'}} /> { decodedString}</div>
                     <div className="spacer" />
                         <div className='toolbar-items'>
                            

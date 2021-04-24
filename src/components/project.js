@@ -32,8 +32,10 @@ class Project extends Component {
       
 
         return (
+				<>
 
             <div className="categorical-tabs" id='project'>
+
 				{/* <ParticleBackground /> */}
                 <div className="title"> {w}</div>
                 {/* <Tabs className="tab" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
@@ -237,6 +239,7 @@ image or a live video </p>
 
              
             </div>
+			</>
              )
     }
 }

@@ -22,7 +22,7 @@ class LandingPage extends Component {
                         <div className="intro" >
                             
 
-                            <h1>Hi, my name is Vishal Raj</h1>
+                            <h1>Hi, I'm Vishal</h1>
 
                         </div>
                         

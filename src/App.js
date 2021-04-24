@@ -10,6 +10,7 @@ import About from './components/about';
 import Project from './components/project';
 import Headerpage from './components/headerPage';
 import Contact from './components/contact';
+import Do from './components/do';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
   render(){
@@ -23,6 +24,7 @@ class App extends Component {
            <Headerpage />
            
            <LandingPage />
+           <Do />
           
              <Project />
              <About />
