@@ -176,16 +176,14 @@ html, body {
 .categorical-tabs {
   /* background: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
    */
-   	background: #3A1C71;
-	background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+   	background:rgb(255, 255, 252);
   font-size: 2vw;
   justify-content: center;
   /* clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 15%),0% calc(100% - 0%)); */
   // clip-path: polygon(0% 0%, 100% 5%, 100% 100%,0% 100%);
-  padding-top: 20px;
+  // padding-top: 20px;
   
-  color: white;
+  color: black;
   width: 100%;
   
 }
@@ -703,9 +701,12 @@ width: 100%;
 @import '/work';
 .butnLinks {
 
-  border-radius: 2em;
-  color:white;
+  font-family: 'roboto';
+  padding: 1.5rem;
+  font-size: 20px;
+  display: inline;
 }
+
 
 .card {
   padding-bottom: 5vh;
@@ -764,7 +765,8 @@ width: 100%;
 .skill{
 
   padding-bottom: 10vh;
-  clip-path: polygon(0% 10vh, 100% 0%, 100% 100%,0% 100%);
+  clip-path: polygon(0% 10vh, 100% 0%, 100% calc(100% - 10vh),0% 100%);
+  // clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 15vh), 35% 100%,0% calc(100% - 15vh));
 
 }
 
@@ -835,3 +837,16 @@ width: 100%;
   padding-bottom: 3vh;
 }
 
+.info-item-text p{
+
+  color:black;
+  font-family: "Lato", sans-serif;
+
+}
+
+.info-item-text h2{
+
+  color: #FFAF7B;
+  font-style: 'roboto';
+  font-size: 20px;
+}

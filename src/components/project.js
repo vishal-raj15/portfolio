@@ -36,25 +36,7 @@ class Project extends Component {
 
             <div className="categorical-tabs" id='project'>
 
-                {/* <Tabs className="tab" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab style={{color:"white"}}>React</Tab>
-                    <Tab style={{color:"white"}}>Godot</Tab>
-                    <Tab style={{color:"white"}}>JS</Tab>
-                    <Tab style={{color:"white"}}>ML/DL</Tab>
-                    <Tab style={{color:"white"}}>Blockchain</Tab>
-                    <Tab style={{color:"white"}}>AR</Tab>
-                    <Tab style={{color:"white"}}>msql</Tab>
-                    <Tab style={{color:"white"}}>CPP</Tab>
-                    <Tab style={{color:"white"}}>Django</Tab>
-                </Tabs>
-
-                    <Grid className='testit'>
-                    <Cell col={12}>
-                        <div className="content">{this.toggleCategories()}</div>
-                    </Cell>
-                    </Grid> */}
-
-{/* style={{ backgroundImage: `url(${Background})`}} */}
+                
 
 
 <div className="wrap">
@@ -69,8 +51,11 @@ class Project extends Component {
 						<p>An online booking webapp for elctric fuel for electric vehicles, before
 visiting power station.</p>
 
-<Button className='butnLinks' ><a href="https://github.com/vishal-raj15/hackathon_project" style={{ textDecoration:'none'}}>github</a></Button>
-                         <Button className='butnLinks' ><a href="https://beginners.herokuapp.com/mapnav/first/" style={{ textDecoration:'none'}}>demo</a></Button>
+				<h2> Django | paytm | login Auth</h2>
+
+
+<div className='butnLinks' ><a href="https://github.com/vishal-raj15/hackathon_project" style={{ textDecoration:'none'}}>github</a></div>
+                         <div className='butnLinks' ><a href="https://beginners.herokuapp.com/mapnav/first/" style={{ textDecoration:'none'}}>demo</a></div>
 
                         
 					</div>
@@ -89,7 +74,9 @@ visiting power station.</p>
                         <p>Fetching user data from a post api with all attributes and media on a
                                 specific day of the calendar.</p>
 
-                        <Button className='butnLinks' ><a href="https://github.com/vishal-raj15/hairDiary/tree/main" style={{ textDecoration:'none'}}>github</a></Button>
+								<h2> React Native </h2>
+
+                        <div className='butnLinks' ><a href="https://github.com/vishal-raj15/hairDiary/tree/main" style={{ textDecoration:'none'}}>github</a></div>
 
 					</div>
 					<div className="info-item-wrap">
@@ -105,8 +92,8 @@ visiting power station.</p>
 						<h3>News<span className="mark">Feed</span></h3>
 						<p>A decentralised app for posting news or any new information by the
 users with the help of Ethereum blockchain technology .</p>
-
-                    <Button className='butnLinks' ><a href="https://github.com/vishal-raj15/decentralised_postPage" style={{ textDecoration:'none'}}>github</a></Button>
+<h2> Ethereum | metamask | solidiy</h2>
+                    <div className='butnLinks' ><a href="https://github.com/vishal-raj15/decentralised_postPage" style={{ textDecoration:'none'}}>github</a></div>
 
 					</div>
 					<div className="info-item-wrap">
@@ -122,8 +109,8 @@ users with the help of Ethereum blockchain technology .</p>
 					<div className="info-item-text">
 						<h3>Video<span className="mark">Request</span></h3>
 						<p>this uses user input data to fetch request from youtube api , atmost 30 video can be fetched for each search.</p>
-
-                        <Button className='butnLinks' ><a href="https://github.com/vishal-raj15/video_request" style={{ textDecoration:'none'}}>github</a></Button>
+						<h2> Reactjs</h2>
+                        <div className='butnLinks' ><a href="https://github.com/vishal-raj15/video_request" style={{ textDecoration:'none'}}>github</a></div>
 
 					</div>
 					<div className="info-item-wrap">
@@ -141,9 +128,9 @@ users with the help of Ethereum blockchain technology .</p>
 					<div className="info-item-text">
 						<h3>AR<span className="mark">one</span></h3>
                             <p>A marker-based Augmented Reality app build with unity and vuforia. </p>
-
-<Button className='butnLinks' ><a href="https://drive.google.com/file/d/1tdwx2hZXlLEhmT-WOy8CPDVV1kXKiXeM/view" style={{ textDecoration:'none'}}>.apk</a></Button>
-                <Button className='butnLinks' ><a href="https://www.youtube.com/watch?v=IpPqfLOAIMo" style={{ textDecoration:'none'}}>Demo</a></Button>
+							<h2> unity | AR</h2>
+<div className='butnLinks' ><a href="https://drive.google.com/file/d/1tdwx2hZXlLEhmT-WOy8CPDVV1kXKiXeM/view" style={{ textDecoration:'none'}}>.apk</a></div>
+                <div className='butnLinks' ><a href="https://www.youtube.com/watch?v=IpPqfLOAIMo" style={{ textDecoration:'none'}}>Demo</a></div>
 
 
                        </div>
@@ -160,9 +147,9 @@ users with the help of Ethereum blockchain technology .</p>
 						<h3>X<span className="mark">plore</span></h3>
                         <p> A 2d Space game where Spaceship in 0 gravity have ability to move in
 infinite 2d space and can doutch and destroy obstacles.</p>
-
-                <Button className='butnLinks' ><a href="https://github.com/vishal-raj15/cs451" style={{ textDecoration:'none'}}>github</a></Button>
-                <Button className='butnLinks' ><a href="https://www.youtube.com/watch?v=33pRmK_9qW0&feature=youtu.be" style={{ textDecoration:'none'}}>Demo</a></Button>
+<h2> Unity </h2>
+                <div className='butnLinks' ><a href="https://github.com/vishal-raj15/cs451" style={{ textDecoration:'none'}}>github</a></div>
+                <div className='butnLinks' ><a href="https://www.youtube.com/watch?v=33pRmK_9qW0&feature=youtu.be" style={{ textDecoration:'none'}}>Demo</a></div>
 
     					</div>
 					<div className="info-item-wrap">
@@ -181,7 +168,8 @@ infinite 2d space and can doutch and destroy obstacles.</p>
                         <p> Deep learning-based Convolutional Neural Network model which can
 detect malarial parasites from microscopic images of blood samples
 with accuracy of about 98 percent</p>
-<Button className='butnLinks' ><a href="https://github.com/vishal-raj15/malaria_detector" style={{ textDecoration:'none'}}>github</a></Button>
+<h2> tensorflow | CNN</h2>
+<div className='butnLinks' ><a href="https://github.com/vishal-raj15/malaria_detector" style={{ textDecoration:'none'}}>github</a></div>
 
                         </div>
 					<div className="info-item-wrap">
@@ -203,8 +191,8 @@ with accuracy of about 98 percent</p>
 openCv ,this model can recognize or identify different human
 emotions to include happiness, sadness, fear, anger, neutral of an
 image or a live video </p>
-					
-                <Button className='butnLinks' ><a href="https://github.com/vishal-raj15/emotion_detection" style={{ textDecoration:'none'}}>github</a></Button>
+<h2> Tensorflow | CNN</h2>
+                <div className='butnLinks' ><a href="https://github.com/vishal-raj15/emotion_detection" style={{ textDecoration:'none'}}>github</a></div>
 
     					</div>
 					<div className="info-item-wrap">
