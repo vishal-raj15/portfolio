@@ -22,9 +22,9 @@ class Do extends Component {
                     <div className="card-group">
             
 
-    <Card  className = 'cd' text="white" style={{ width: '100vw'  , backgroundColor:'white', border: 'none'}}>
+    <Card  text="white" style={{ width: '100vw'  , backgroundColor:'white', border: 'none'}}>
     {/* <Card.Header style={{ boarder:'none'}}><img src={Logo} style={{ width:'200px' , height:'200px'}}/></Card.Header> */}
-    <Card.Body  >
+    <Card.Body style={{ paddingTop:'10vh'}} >
     <img src={Logo} style={{ width:'200px' , height:'200px' ,borderRadius:'50%'}}/>
       <Card.Title style={{ boarder:'none' ,padding:'5vh' ,color:'black'}}>Development</Card.Title>
       <Card.Text style={{ boarder:'none' , color:'black' ,paddingLeft:'5vw' , paddingRight:'5vw' , paddingBottom:'60px'}}>
@@ -34,9 +34,9 @@ class Do extends Component {
   </Card>
   <br />
 
-  <Card className = 'cd' text="white" style={{ width: '100vw'  , backgroundColor:'white' , border: 'none'}}>
+  <Card text="white" style={{ width: '100vw'  , backgroundColor:'white' , border: 'none'}}>
     {/* <Card.Header style={{ boarder:'none'}}><img src={Logo} style={{ width:'200px' , height:'200px'}}/></Card.Header> */}
-    <Card.Body  >
+    <Card.Body style={{ paddingTop:'10vh'}} >
     <img src={Pro} style={{ width:'200px' , height:'200px' ,borderRadius:'50%'}}/>
       <Card.Title style={{ boarder:'none', padding:'5vh',color:'black' }}>Problem Solving</Card.Title>
       <Card.Text style={{ boarder:'none',color:'black',paddingLeft:'5vw' , paddingRight:'5vw' , paddingBottom:'60px'}}>
