@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+
 import { Container , Segment,Input } from 'semantic-ui-react';
 
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
@@ -35,6 +36,8 @@ const decodedcontact = parser.parseFromString(`<!doctype html><body>${c}`, 'text
   return (
 
 <nav className='toolbar' >
+
+  <div id='navbar'></div>
                 <nav className='toolbar_navigation'>
 
 
@@ -116,3 +119,6 @@ const decodedcontact = parser.parseFromString(`<!doctype html><body>${c}`, 'text
 }
 
 export default Headerpage;
+
+
+

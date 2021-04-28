@@ -444,6 +444,22 @@ width: 100%;
 
 @media screen and (max-width: 800px) {
   .toolbar{background: 'red';}
+
+
+  .card-group {
+
+    padding-bottom: 5vh;
+  }
+
+// .dopage {
+
+//   height: 200vh;
+// }
+.cd {
+
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
   
   .metext{
 
@@ -481,10 +497,14 @@ width: 100%;
 
 .intro h1{
 
-  font-size: 3.75rem;
+  font-size: 3rem;
   letter-spacing: 3px;
   font-family: "Lato", sans-serif;
   color: white;
+  justify-content: center;
+  text-align: center;
+  padding-left: 5vw;
+
   /* border-right: 2px solid white; */
 
 }
@@ -493,7 +513,7 @@ width: 100%;
 
   max-width: 650px;
     margin: 30px auto;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
   text-align: center;
   font-family: 'Roboto';
@@ -719,7 +739,11 @@ width: 100%;
 
   color: #1c222a;
   flex-flow: row;
+
+  
 }
+
+
 
 
 
@@ -738,7 +762,7 @@ width: 100%;
   font-family: "Lato", sans-serif;
 
   padding-top: 5vh;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
   margin: 0 auto;
 }
 
@@ -850,3 +874,8 @@ width: 100%;
   font-style: 'roboto';
   font-size: 20px;
 }
+
+// .card-body {
+
+//   padding-bottom: 40hv;
+// }
